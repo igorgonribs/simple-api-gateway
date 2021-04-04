@@ -1,5 +1,7 @@
 # simple-api-gateway
-Simple API Gateway project with Zuul to demonstrate the pattern.
+Simple API Gateway project with Zuul to demonstrate the pattern. 
+
+You can read this file in portuguese by clicking [here](https://github.com/igorgonribs/simple-api-gateway/blob/master/README-pt.md).
 
 ## Getting Started
 Just clone this repository and run all the three projects.
