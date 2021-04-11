@@ -1,5 +1,7 @@
 # simple-api-gateway
-Simple API Gateway project with Zuul to demonstrate the pattern.
+Simple API Gateway project with Zuul to demonstrate the pattern. 
+
+You can read this file in portuguese by clicking [here](https://github.com/igorgonribs/simple-api-gateway/blob/master/README-pt.md).
 
 ## Getting Started
 Just clone this repository and run all the three projects.
@@ -32,3 +34,10 @@ Now, our client just needs to know the URL for the API Gateway, wich is the main
 
 More about this pattern called API Gateway, like its pros and cons, can be found at https://microservices.io/patterns/apigateway.html.
 The dependency used for redirecting was Zuul, an open source project mantained by Netflix. For more information about Zuul see https://github.com/Netflix/zuul.
+
+# API Composition
+API Composition is a pattern where a service called by the client calls others two or more services and format the response before returning it to the client. So, the client doesn't need to call several services in diferents requests to get the needed information. 
+
+This repository has an example of this pattern and you can see it in this [branch] (https://github.com/igorgonribs/simple-api-gateway/tree/api-composition-example)
+
+A deeper discussion about this pattern, like pros and cons, can be found in this [post](https://medium.com/p/c266f0202b8/edit) (portuguese only).
