@@ -29,5 +29,12 @@ Esses redirecionamentos, graças à dependência Zuul, são feitos declarativame
 
 Dessa forma, nossos clientes só precisam conhecer a URL do serviço api-gateway, que passa a ser a porta de entrada da nossa aplicação.
 
-Para sabeer mais sobre o padrão API Gateway, veja https://microservices.io/patterns/apigateway.html.
+Para saber mais sobre o padrão API Gateway, veja https://microservices.io/patterns/apigateway.html.
 Para saber mais sobre o Zuul veja https://github.com/Netflix/zuul.
+
+# API Composition
+API Composition (composição de APIs) é um padrão no qual um serviço chamado pela aplicação cliente chama outros dois ou mais serviços e formata a resposta antes de enviá-la de volta ao cliente. Dessa forma, o cliente não precisa executar várias chamadas aos vários serviços disponíveis para recuperar a informação necessária. 
+
+Este repositório tem um exemplo de composição de APIs disponível na [branch] (https://github.com/igorgonribs/simple-api-gateway/tree/api-composition-example)
+
+Uma discussão mais profunda sobre esse padrão pode ser encontrada nesse [post](https://medium.com/p/c266f0202b8/edit).
